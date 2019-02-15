@@ -115,6 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="graphl.h" />
+    <ClInclude Include="graphm.h" />
+    <ClInclude Include="nodedata.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="graphl.cpp" />
+    <ClCompile Include="graphm.cpp" />
+    <ClCompile Include="lab3.cpp" />
+    <ClCompile Include="nodedata.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data31.txt" />
+    <Text Include="data32.txt" />
+    <Text Include="dataUWB.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
