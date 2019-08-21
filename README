@@ -1,0 +1,18 @@
+Sean O'Dell
+CSS 502
+
+Implements Dijkstra's shortest path.  Finds shortest path and can display all paths costs.  Implements needed portions of graph class.
+
+Input Data Format:
+Number Of Nodes (integer)
+Text description for each of the nodes (one per line (50 chars max))
+3 integers representing an edge. One set per line in format "from to length", if first int is 0, EOF.  
+
+
+
+Implements depth first search and displays graph
+
+Input Data Format:
+Number Of Nodes (integer)
+Text description for each of the nodes (one per line (50 chars max))
+2 integers representing an edge. One set per line in format "from to", if first int is 0, EOF.  
